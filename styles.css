@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    height: 80px;
+}
+
+.top-bar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    padding: 0 20px;
+}
+
+.top-bar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 38px;
+}
+
+.top-bar a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Section intro */
+.section-intro {
+    background-color: #87ba5e;
+    height: 500px;
+}
+
+.section-intro h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.section-intro p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.section-intro button{
+    border-radius: 4px;
+    background: #564787;
+    padding: 12px 40px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 32px;    
+}
+
+.section-intro img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: solid black 4px;
+}
+.section-intro .container {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-intro .social-icons{
+    display: flex;
+    gap: 32px;
+    margin-top: 64px;
+    
+}
+
+.section-intro .social-icons i{
+    font-size: 24px;
+    color: #000;
+}
